@@ -2,7 +2,7 @@ package h_interfaces;
 
 public class Main {
     //Interfaces = A blueprint for a class that specifies a set of abstract methods
-    //             that implementing classes MUST define
+    //             that MUST be defined by classes that implement the interface
     //             Supports multiple inheritance-like behavior (child can inherit multiple classes)
 
     //start by Interfaces, and then Rabbit and Hawk classes

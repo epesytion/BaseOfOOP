@@ -1,6 +1,6 @@
 package h_interfaces;
 
 public interface Predator {
-    void hunt();
+    void hunt(); //Predators hunt on prey
 
 }
