@@ -12,4 +12,9 @@ public class Triangle extends Shape{
     double area() {
         return 0.5 * base * height;
     }
+
+    @Override
+    void display() {
+        System.out.println("This is a triangle");
+    }
 }

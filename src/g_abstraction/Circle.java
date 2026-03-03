@@ -13,5 +13,9 @@ public class Circle extends Shape { //since the abstract methods (area()) are in
         return Math.PI * radius * radius;
     }
 
+    @Override
+    void display() {
+        System.out.println("This is a circle");
+    }
 }
 

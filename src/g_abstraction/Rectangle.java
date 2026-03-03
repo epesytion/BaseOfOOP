@@ -15,5 +15,9 @@ public class Rectangle extends Shape {
         return width * height;
     }
 
+    @Override
+    void display() {
+        System.out.println("This is a rectangle");
+    }
 
 }
