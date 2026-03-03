@@ -1,5 +1,5 @@
 package i_polymorhism.RuntimePolymorphism;
-//Also, make it abstract to restrict creating Animal class's objects.
+//Also, make it abstract to restrict creating Animal class's exact objects.
 public abstract class Animal {
     abstract void speak();
     // 2.

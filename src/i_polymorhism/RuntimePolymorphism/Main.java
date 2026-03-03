@@ -15,7 +15,8 @@ public class Main {
 
         //Let's just declare animal object, but not define
         Animal animal;
-        //We will read users input to declare what kind of animal we need to define by Animal class.
+
+        //We will read users' input to declare what kind of animal we need to define by Animal class.
     /*
     It's like: Animal animal = new Dog()  or  Animal animal = new Cat()
      */
