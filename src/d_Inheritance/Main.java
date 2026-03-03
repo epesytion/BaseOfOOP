@@ -6,7 +6,7 @@ public class Main {
         //inheritance is when the one class inherits the attributes and methods from another class (go to Animal class)
         //Child <- Parent <- GrandParent
         //4.
-        Dog dog = new Dog();
+        Dog dog = new Dog(true);
         System.out.println(dog.isAlive); //We can output the variable. And because in "Dog" class we inherited "Animal",
         //the new instances of "Dog" class have the same variables
         dog.eat();
