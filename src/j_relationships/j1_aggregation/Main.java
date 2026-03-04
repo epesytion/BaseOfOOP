@@ -1,4 +1,4 @@
-package j_relationships.aggregation;
+package j_relationships.j1_aggregation;
 
 public class Main {
     //Aggregation = represents a 'has-a' relationship between an objects
@@ -18,7 +18,7 @@ public class Main {
         //3.
         Library library = new Library("Kazakhstan National Academic Library", 1910, books);
         //And, that's the aggregation. The Library has book objects in it
-        library.displayInfo();
+        library.displayLibInfo();
 
     }
 }

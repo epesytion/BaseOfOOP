@@ -1,4 +1,4 @@
-package j_relationships.composition;
+package j_relationships.j2_composition;
 
 public class Engine {
     String type; //We define the type of engine (V6, V8, etc.)

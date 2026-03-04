@@ -1,4 +1,4 @@
-package j_relationships.aggregation;
+package j_relationships.j1_aggregation;
 
 public class Book {
     String title;
@@ -9,7 +9,7 @@ public class Book {
         this.pages = pages;
     }
 
-    String displayInfo() {
+    String displayBookInfo() {
         return "The book \"" + this.title + "\" has " + this.pages + " pages";
     }
 }

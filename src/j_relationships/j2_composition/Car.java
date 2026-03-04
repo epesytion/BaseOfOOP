@@ -1,4 +1,4 @@
-package j_relationships.composition;
+package j_relationships.j2_composition;
 
 public class Car {
     public String model;
@@ -17,7 +17,7 @@ public class Car {
 
     //6
     void startCar(){
-        engine.startEngine(); //since we wanna start car, we must start engine
+        engine.startEngine(); //since we wanna start car, we must start engine first
         System.out.println("Car is running");
     }
 }

@@ -1,4 +1,4 @@
-package j_relationships.aggregation;
+package j_relationships.j1_aggregation;
 
 public class Library {
     //what the library should have?
@@ -12,11 +12,11 @@ public class Library {
         this.books = books;
         //3. Here where the aggregation comes (go to main class)
     }
-    void displayInfo() {
+    void displayLibInfo() {
         System.out.println(this.name + " " + this.year);
         System.out.println("📚 The list of books in the library: ");
         for(int i = 0; i < this.books.length; i++) {
-            System.out.println((i+1)+ ". " + this.books[i].displayInfo());
+            System.out.println((i+1)+ ". " + this.books[i].displayBookInfo());
         }
     }
 }

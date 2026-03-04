@@ -1,4 +1,4 @@
-package j_relationships.composition;
+package j_relationships.j2_composition;
 
 public class Main {
     static void main(String[] args) {
